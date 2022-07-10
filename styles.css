@@ -1,0 +1,31 @@
+.flex-container {
+    display: flex;
+}
+
+.another-container {
+    display: flex;
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    flex: 1 1 auto;
+}
+
+.another-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    flex: 1;
+}
+
+.another-container .tres {
+    flex: 2 1 0%;
+    flex-shrink: 0;
+}
+
+.flex-container .two {
+    flex-shrink: 0;
+}
